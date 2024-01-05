@@ -1,0 +1,101 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Bai Jamjuree", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background: hsl(0, 0%, 87%);
+}
+
+img {
+	position: absolute;
+	display: flex;
+	right: 200px;
+	height: 400px;
+	width: 400px;
+}
+
+.container {
+	padding: 20px 5%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a {
+	color: #080808;
+	text-decoration: none;
+	font-size: 22px;
+	position: relative;
+}
+
+nav ul li a::after {
+	content: '';
+	width: 0;
+	height: 3px;
+	background: #ff004f;
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+	width: 100%;
+}
+
+.header-text {
+	margin-top: 2%;
+	font-size: 20px;
+}
+
+h3 {
+	margin: 20px 20px;
+}
+
+p {
+	margin: 5px 20px;
+}
+
+
+#about ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}
+
+#projects h1 {
+	margin: 30px 0px;
+}
+
+#in_progress h1 {
+	margin: 30px 0px;
+}
+
+#contacts {
+	left: 400px;
+}
+
+.in_progress li {
+	display: inline-block;
+}
+
+.in_progress h1 {
+	margin: 20px 0px;
+}
